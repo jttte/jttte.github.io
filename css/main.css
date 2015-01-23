@@ -17,13 +17,57 @@
             padding: 100px 0;
 }
 #home { 
-            background: url(../images/home.jpg) 50% 0 fixed; 
+            background: url(../images/cu.jpg) 50% 0 fixed; 
             height: auto;  
             margin: 0 auto; 
             width: 100%; 
             position: relative; 
             box-shadow: 0 0 50px rgba(0,0,0,0.8);
             padding: 100px 0;
+}
+.social-icons
+.btn{margin-right:15px}
+.social-icons{padding-top:10px;margin-bottom:35px}
+.social-icons .btn.btn-clear{border:2px solid #fff}
+.btn-round{border-radius:50%;width:50px;height:50px;display:inline-block;padding:0}
+.btn-round i{font-size:20px;top:15px;position:relative}
+.btn.btn-clear{
+    border:1px solid #fff;
+    color:#fff;background:0 0;
+    background-color:none;
+    font-weight:700;
+    -webkit-transition-duration:.8s;
+    -moz-transition-duration:.8s;
+    -o-transition-duration:.8s;
+    transition-duration:.8s;
+    -webkit-transition-property:-webkit-transform;
+    -moz-transition-property:-moz-transform;
+    -o-transition-property:-o-transform;
+    transition-property:transform
+}
+.btn.btn-clear
+.selected,
+.btn.btn-clear:hover{
+    background:#fff;
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg)
+}
+.btn-twitter:hover{color:#2BA9E0}
+.btn-facebook:hover{color:#204385}
+.btn-dribbble:hover{color:#D92C85}
+.btn-instagram:hover{color:#BAB1A8}
+.btn-linkedin:hover{color:#015786}
+.btn-github:hover{color:#000000}
+.btn-pinterest:hover{color:#CA2128}
+.btn-google:hover{color:#D3492C}
+.left{float:left}
+.right{float:right}
+.text-center{text-align:center}
+.centered{
+    margin-left:auto;
+    margin-right:auto;
+    float:none
 }
 #education { 
             background: url(../images/about.png) 50% 0 fixed; 
@@ -72,7 +116,7 @@
         color: #b2b2b2;
         text-decoration: underline;
     }
-    #contact { 
+#contact { 
             background: url(../images/about.png) 50% 0 fixed; 
             height: auto;
             margin: 0 auto; 
