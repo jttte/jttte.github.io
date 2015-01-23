@@ -13,10 +13,10 @@
             margin: 0 auto; 
             width: 100%; 
             position: relative; 
-            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            box-shadow: 0 0 0px rgba(0,0,0,0.8);
             padding: 100px 0;
-        }
-        #home { 
+}
+#home { 
             background: url(../images/home.jpg) 50% 0 fixed; 
             height: auto;  
             margin: 0 auto; 
@@ -24,8 +24,18 @@
             position: relative; 
             box-shadow: 0 0 50px rgba(0,0,0,0.8);
             padding: 100px 0;
-        }
-        #experience { 
+}
+#education { 
+            background: url(../images/about.png) 50% 0 fixed; 
+            height: auto;
+            margin: 0 auto; 
+            width: 100%; 
+            position: relative; 
+            box-shadow: 0 0 50px rgba(0,0,0,0.8);
+            padding: 100px 0;
+            color: #fff;
+}
+#experience { 
             background: url(../images/calh1.jpg) 50% 0 fixed; 
             height: auto;  
             margin: 0 auto; 
@@ -33,7 +43,7 @@
             position: relative; 
             box-shadow: 0 0 0px rgba(0,0,0,0.8);
             padding: 100px 0;
-        }
+}
         .hsContainer {
             width: 100%;
             height: 100%;
@@ -62,7 +72,7 @@
         color: #b2b2b2;
         text-decoration: underline;
     }
-        #about { 
+    #contact { 
             background: url(../images/about.png) 50% 0 fixed; 
             height: auto;
             margin: 0 auto; 
@@ -71,11 +81,11 @@
             box-shadow: 0 0 50px rgba(0,0,0,0.8);
             padding: 100px 0;
             color: #fff;
-        }
+    }
 
         /* Non-essential demo stuff */
-        .hero-unit {
+    .hero-unit {
             background-color: #fff;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
-        }
-        .media-object { width: 64px; height: 64px; padding-bottom: 30px }
+    }
+    .media-object { width: 64px; height: 64px; padding-bottom: 30px }
