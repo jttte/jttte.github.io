@@ -8,8 +8,7 @@
             padding: 100px 0;
 }
 .project-custom {
-    margin: 10px auto;
-    padding: 100px auto;
+    margin: 10 10 10 10px;
 }
 .small-dialog {
             background: white;
@@ -23,7 +22,7 @@
             background: url(../images/cu.jpg) no-repeat fixed center;
             background-size: cover;
             height: auto;  
-            margin: 0 auto; 
+            margin: 10px auto; 
             width: 100%; 
             position: relative; 
             box-shadow: 0 0 50px rgba(0,0,0,0.8);
