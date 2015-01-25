@@ -14,15 +14,16 @@
             background: white;
             padding: 20px 30px;
             text-align: left;
-            max-width: 400px;
+            max-width: 800px;
             margin: 40px auto;
             position: relative;
+            border-radius:5px;
         }
 #home { 
             background: url(../images/cu.jpg) no-repeat fixed center;
             background-size: cover;
             height: auto;  
-            margin: 10px auto; 
+            margin: 0 auto; 
             width: 100%; 
             position: relative; 
             box-shadow: 0 0 50px rgba(0,0,0,0.8);
